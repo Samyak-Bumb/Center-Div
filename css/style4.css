@@ -1,0 +1,33 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.container{
+   display: grid;
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   place-items: center;
+   background-color: #101010;
+}
+.child{
+   width: 200px;
+   height: 200px;
+   background-color: #2a8ae7;
+}
+a{
+   user-select: none;
+	display: flex;
+	position: fixed;
+	right: 10px;
+	width: 40px;
+	height: 40px;
+	bottom: 10px;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-size: 20px;
+	text-decoration: none;
+	z-index: 10;
+	color: #fff;
+}

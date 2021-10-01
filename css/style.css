@@ -1,0 +1,40 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.container{
+   position: relative;
+   height: 100vh;
+   width: 100vw;
+   background-color: #101010;
+}
+.child{
+   position: absolute;
+   margin: auto;
+   width: 200px;
+   height: 200px;
+   background-color: #2a8ae7;
+   inset: 0;
+}
+a{
+   user-select: none;
+	display: flex;
+	position: fixed;
+	right: 10px;
+	width: 40px;
+	height: 40px;
+	bottom: 10px;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-size: 20px;
+	text-decoration: none;
+	z-index: 10;
+	color: #fff;
+	transition: 200ms ease;
+}
+h3{
+   position: absolute;
+   margin: 15px;
+   color: #fff;
+}
